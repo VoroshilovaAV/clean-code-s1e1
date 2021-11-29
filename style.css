@@ -20,12 +20,10 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
-
-  .app-descr-block { 
+@media (max-width: 768px) {
+  .app-descr-block {
     text-align: center;
   }
-
 }
 
 .main-block {
@@ -37,7 +35,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-row-wrapper {
@@ -53,7 +51,7 @@
   list-style: none;
 }
 
-.hide-outline{
+.hide-outline {
   outline: none;
 }
 
@@ -135,7 +133,7 @@
 }
 
 .item-text {
-  width: 226px
+  width: 226px;
 }
 
 .icon-del {
@@ -150,18 +148,18 @@
 
 /* Completed */
 #completed-tasks .item-label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .input-text {
-  display: none
+  display: none;
 }
 
 .edit-mode-block .input-text {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode-block .item-label {
