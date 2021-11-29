@@ -16,7 +16,8 @@
   width: 100%;
 }
 
-.app-descr-block .more-inf-link {
+.app-descr-block 
+.more-inf-link {
   font-family: fantasy, cursive;
 }
 
@@ -147,7 +148,8 @@
 }
 
 /* Completed */
-#completed-tasks .item-label {
+#completed-tasks 
+.item-label {
   text-decoration: line-through;
   color: #888;
 }
@@ -157,11 +159,13 @@
   display: none;
 }
 
-.edit-mode-block .input-text {
+.edit-mode-block 
+.input-text {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode-block .item-label {
+.edit-mode-block 
+.item-label {
   display: none;
 }
