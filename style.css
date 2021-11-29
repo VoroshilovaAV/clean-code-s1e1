@@ -4,21 +4,21 @@ body {
   color: #333;
   font-family: "Lato", sans-serif;
 }
-.app-description-block {
+.app-descr-block {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.app-description-block img {
+.app-descr-block img {
   width: 100%;
 }
-.app-description-block .more-inf-link {
+.app-descr-block .more-inf-link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .app-description-block { text-align: center;
+  .app-descr-block { text-align: center;
   }
 }
 .main-block {
